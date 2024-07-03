@@ -4,11 +4,19 @@ import brandsData from "./brandsData";
 
 const Brands = () => {
   return (
-    <section className="pt-16">
+    <section className="pt-16 bg-light-blue dark:bg-dark-blue">
       <div className="container">
+        <div className="text-center mb-8">
+          <h2 className="text-2xl font-bold mb-4 text-primary dark:text-white">
+            Trusted by professionals from top companies
+          </h2>
+          <p className="text-body-color dark:text-body-color-dark">
+            Our users work at some of the most well-known companies worldwide.
+          </p>
+        </div>
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-            <div className="flex flex-wrap items-center justify-center rounded-sm bg-gray-light px-8 py-8 dark:bg-gray-dark sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]">
+            <div className="flex flex-wrap items-center justify-center rounded-sm bg-white dark:bg-gray-800 px-8 py-8 sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]">
               {brandsData.map((brand) => (
                 <SingleBrand key={brand.id} brand={brand} />
               ))}
@@ -20,8 +28,6 @@ const Brands = () => {
   );
 };
 
-export default Brands;
-
 const SingleBrand = ({ brand }: { brand: Brand }) => {
   const { href, image, imageLight, name } = brand;
 
@@ -31,7 +37,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         href={href}
         target="_blank"
         rel="nofollow noreferrer"
-        className="relative h-10 w-full opacity-70 transition hover:opacity-100 dark:opacity-60 dark:hover:opacity-100"
+        className="relative h-10 w-full opacity-70 transition hover:opacity-100 dark:opacity-70 dark:hover:opacity-100"
       >
         <Image src={imageLight} alt={name} fill className="hidden dark:block" />
         <Image src={image} alt={name} fill className="block dark:hidden" />
@@ -39,3 +45,5 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
     </div>
   );
 };
+
+export default Brands;

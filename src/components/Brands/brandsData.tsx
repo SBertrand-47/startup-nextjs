@@ -2,47 +2,26 @@ import { Brand } from "@/types/brand";
 
 const brandsData: Brand[] = [
   {
-    id: 6,
-    name: "Formbold",
-    href: "https://formbold.com",
-    image: "/images/brands/formbold.svg",
-    imageLight: "/images/brands/formbold-light.svg",
-  },
-  {
     id: 1,
-    name: "UIdeck",
-    href: "https://uideck.com",
-    image: "/images/brands/uideck.svg",
-    imageLight: "/images/brands/uideck-light.svg",
+    name: "Meta",
+    href: "https://meta.com",
+    image: "/images/brands/meta.svg",
+    imageLight: "/images/brands/meta.svg",
   },
   {
     id: 2,
-    name: "Tailgrids",
-    href: "https://tailgrids.com",
-    image: "/images/brands/tailgrids.svg",
-    imageLight: "/images/brands/tailgrids-light.svg",
+    name: "Google",
+    href: "https://google.com",
+    image: "/images/brands/google.svg",
+    imageLight: "/images/brands/google.svg",
   },
   {
     id: 3,
-    name: "Lineicons",
-    href: "https://lineicons.com",
-    image: "/images/brands/lineicons.svg",
-    imageLight: "/images/brands/lineicons-light.svg",
-  },
-  {
-    id: 4,
-    name: "Tailadmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
-    imageLight: "/images/brands/tailadmin-light.svg",
-  },
-  {
-    id: 5,
-    name: "PlainAdmin",
-    href: "https://plainadmin.com",
-    image: "/images/brands/plainadmin.svg",
-    imageLight: "/images/brands/plainadmin-light.svg",
-  },
+    name: "MTN",
+    href: "https://mtn.com",
+    image: "/images/brands/mtn.svg",
+    imageLight: "/images/brands/mtn.svg",
+  }
 ];
 
 export default brandsData;
