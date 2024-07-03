@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import axios from "axios";
-import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -135,9 +134,6 @@ const Contact = () => {
                 </p>
               )}
             </div>
-          </div>
-          <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
-            <NewsLatterBox />
           </div>
         </div>
       </div>
