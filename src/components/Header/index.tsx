@@ -160,7 +160,7 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
-                  href="https://veily-40cb56f199cb.herokuapp.com/"
+                  href="https://www.veily.online/"
                   className="ease-in-up shadow-btn hover:shadow-btn-hover rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 flex items-center"
                 >
                   <svg
