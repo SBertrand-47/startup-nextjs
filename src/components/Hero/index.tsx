@@ -9,18 +9,17 @@ const Hero = () => {
       >
         <div className="container">
         <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
-                <div className="mx-auto max-w-[800px] text-center">
-                    <h1 className="mb-5 text-3xl font-bold leading-tight text-dark-blue dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                        Welcome to Veily: The Ultimate Anonymous Professional Networking Platform
-                    </h1>
-                    <p className="mb-12 text-base !leading-relaxed text-dark-gray dark:text-light-gray sm:text-lg md:text-xl">
-                        Veily is an anonymous social networking platform designed for professionals to discuss workplace issues, share company insights, and seek career advice without revealing their identities. Connect with colleagues from your own company and professionals from other firms. Veily goes beyond by integrating advanced AI capabilities that provide companies with actionable feedback to enhance workplace culture and employee satisfaction. Experience the power of open, honest communication and drive meaningful change within your organization.
-                    </p>
-                    
-                </div>
-            </div>
-        </div>
+          <div className="w-full px-4">
+              <div className="mx-auto max-w-[800px] text-center">
+                  <h1 className="mb-5 text-3xl font-bold leading-tight text-dark-blue dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                      Welcome to Veily: The Ultimate Anonymous Professional Networking Platform in Africa
+                  </h1>
+                  <p className="mb-12 text-base !leading-relaxed text-dark-gray dark:text-light-gray sm:text-lg md:text-xl">
+                      Veily is an anonymous social networking platform designed for professionals in Africa to discuss workplace issues, share company insights, and seek career advice without revealing their identities. Connect with colleagues from your own company and professionals from other firms across the continent. Veily goes beyond by integrating advanced AI capabilities that provide companies with actionable feedback to enhance workplace culture and employee satisfaction. Experience the power of open, honest communication and drive meaningful change within your organization.
+                  </p>
+              </div>
+          </div>
+      </div>
 
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
